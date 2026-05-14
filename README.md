@@ -4,7 +4,7 @@
 
 EasySave is a .NET 10 application available as both a **WPF GUI** and a **console CLI**. It lets you define, manage, and execute backup jobs in parallel with full/differential strategies, real-time state tracking, pause/resume/stop controls, AES file encryption, and centralized log management.
 
-> **Projet académique réalisé en groupe de 3** dans le cadre du cursus Génie Logiciel — CESI 2025/2026.
+> **Academic project carried out in a group of 3** as part of the Software Engineering curriculum — CESI 2025/2026
 
 ---
 
