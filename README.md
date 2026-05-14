@@ -4,6 +4,8 @@
 
 EasySave is a .NET 10 application available as both a **WPF GUI** and a **console CLI**. It lets you define, manage, and execute backup jobs in parallel with full/differential strategies, real-time state tracking, pause/resume/stop controls, AES file encryption, and centralized log management.
 
+> **Projet académique réalisé en groupe de 3** dans le cadre du cursus Génie Logiciel — CESI 2025/2026.
+
 ---
 
 ## Table of contents
@@ -84,8 +86,8 @@ CESI-Genie-Logiciel.slnx
 ## Installation
 
 ```bash
-git clone https://github.com/JustAeris/CESI-Genie-Logiciel.git
-cd CESI-Genie-Logiciel
+git clone https://github.com/dhya1404/EasySave.git
+cd EasySave
 dotnet build
 ```
 
@@ -198,10 +200,10 @@ Class and overview diagrams for v3.0 are available in the [`/Diagrams/`](./Diagr
 
 | Version | Date | Description |
 |---|---|---|
-| 1.0 | — | Console app, full/differential backup, EasyLog DLL, JSON logs, up to 5 jobs |
-| 1.1 | — | Unlimited jobs, JSON/XML log format choice, `EncryptionTime` log field |
-| 2.0 | — | WPF GUI (MVVM), CryptoSoft encryption, business software detection |
-| **3.0** | **2026-05-13** | **Parallel execution, Play/Pause/Stop, priority files, large file throttle, AES encryption, FR/EN GUI, Docker log centralisation** |
+| 1.0 | **2026-05-15**  | Console app, full/differential backup, EasyLog DLL, JSON logs, up to 5 jobs |
+| 1.1 | **2026-04-19**  | Unlimited jobs, JSON/XML log format choice, `EncryptionTime` log field |
+| 2.0 | **2026-05-02** | WPF GUI (MVVM), CryptoSoft encryption, business software detection |
+| **3.0** | **2026-05-12** | **Parallel execution, Play/Pause/Stop, priority files, large file throttle, AES encryption, FR/EN GUI, Docker log centralisation** |
 
 See [`CHANGELOG.md`](./CHANGELOG.md) for the full history.
 
